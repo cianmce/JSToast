@@ -14,7 +14,7 @@ $(function(){
     });
 });
 
-function makeToast(text, delay){
+function makeToast(text, level, delay){
     if(!delay){
         delay = 4000;
     }
